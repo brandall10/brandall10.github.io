@@ -70,11 +70,11 @@ function TOCize(toc, content, matchHeightTo) {
         return q;
     };
     
-    var hs = content.querySelectorAll('h1, h2, h3, h4, h5, h6');
+    var hs = content.querySelectorAll('h1, h2, h3');
     var cul = null, plevel = 1;
     var uls = [make('ul')];
     for (var i=0;i<hs.length;i++) {
-        var level = +hs[i].tagName.substr(1);
+        var level = 1; //+hs[i].tagName.substr(1);
         var hi = hs[i];
         var ti = make('li');
         ti.appendChild(generateLink(hi));
