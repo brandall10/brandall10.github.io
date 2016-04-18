@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 public: true
 ---
+<img src="/images/us.jpg" />
 
 Hi, I'm Beau.  I live in San Diego with my girlfriend and our two pug children.
 
