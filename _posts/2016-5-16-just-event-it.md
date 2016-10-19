@@ -16,7 +16,7 @@ Let's start with a PORO (plain 'ol Ruby object) simply called MyPoro.  MyPoro is
 
 ```ruby
 class MyPoro
-  def calculate_sum
+  def calculate_sum(lower, upper)
     (lower..upper).to_a.reduce(:+)
   end
 end
@@ -29,7 +29,7 @@ Now what if we wanted to have a nice message printed to the console, replete wit
 class MyPoro
   MAX_SUM = 100
   
-  def calculate_sum
+  def calculate_sum(lower, upper)
     sum = (lower..upper).to_a.reduce(:+)
     
     puts "Your sum is: #{sum}"
