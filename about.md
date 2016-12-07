@@ -4,9 +4,8 @@ title: About
 permalink: /about/
 public: true
 ---
-<img src="/images/us.jpg" />
 
-Hi, I'm Beau.  I live in San Diego with my girlfriend and our two pug children.
+Hi, I'm Beau.  I live in San Diego with my two pug children.
 
 I've been writing software professionally for over 15 years and have worked for early stage startups to Fortune 500s.  My life as a developer started in enterprise health care using primarily C++ and C#.  Over the past several years I transitioned to working on the modern web using tooling such as Rails, React, and AngularJS.  This I truly love.
 
